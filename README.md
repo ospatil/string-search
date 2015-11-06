@@ -51,7 +51,7 @@ Copyright © 2015 [Omkar Patil](https://github.com/ospatil)
 Licensed under the MIT license.
 
 [npm-image]: https://badge.fury.io/js/string-search.svg?style=flat-square
-[npm-url]: https://npmjs.org/ospatil/string-search
+[npm-url]: https://npmjs.org/string-search
 [travis-image]: https://travis-ci.org/ospatil/string-search.svg?branch=master&style=flat-square
 [travis-url]: https://travis-ci.org/ospatil/string-search
 [daviddm-image]: https://david-dm.org/ospatil/string-search.svg?theme=shields.io&style=flat-square
