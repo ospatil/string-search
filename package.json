@@ -1,6 +1,6 @@
 {
   "name": "string-search",
-  "version": "1.0.0-rc",
+  "version": "1.0.0",
   "description": "Node module for searching multi-line string using regex",
   "homepage": "https://github.com/ospatil/string-search",
   "author": {
