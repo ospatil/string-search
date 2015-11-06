@@ -1,4 +1,5 @@
-# string-search [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]
+# string-search 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]
 > Node module that carries out regex search on given multi-line string and returns match information.
 
 ## Features
@@ -16,9 +17,10 @@ Install with [NPM](https://www.npmjs.com) - `npm install --save string-search`
 ```js
 var stringSearcher = require('string-search');
 
-stringSearcher.find('This is the string to search text in', 'string').then(function(resultArr) {
-  //resultArr => [ {line: 1, text: 'This is the string to search text in'} ]
-);
+stringSearcher.find('This is the string to search text in', 'string')
+  .then(function(resultArr) {
+    //resultArr => [ {line: 1, text: 'This is the string to search text in'} ]
+  });
 ```
 
 ## API
