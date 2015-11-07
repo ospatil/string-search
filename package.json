@@ -4,7 +4,7 @@
   "description": "Node module for searching multi-line string using regex",
   "homepage": "https://github.com/ospatil/string-search",
   "author": {
-    "name": "Patil, Omkar",
+    "name": "Omkar Patil",
     "email": "ospatil@gmail.com",
     "url": "https://github.com/ospatil"
   },
@@ -14,8 +14,7 @@
   "main": "dist/index.js",
   "keywords": [
     "search",
-    "text",
-    "search",
+    "text search",
     "regex",
     "node"
   ],
@@ -41,6 +40,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bluebird": "3.0.5"
+    "bluebird": "3.0.5",
+    "lodash": "3.10.1"
   }
 }
