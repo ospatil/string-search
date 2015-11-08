@@ -36,6 +36,7 @@ Returns **promise** that resolves to an array of objects containing following at
 Name | Type      | Description
 -----|-----------| ------------
 line | `integer` | line number that the matched result was found on.
+term | `string`  | The search term
 text | `string`  | the entire line(s) that the matched result was found in.
 
 ## Contributing
