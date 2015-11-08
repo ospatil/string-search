@@ -8,6 +8,7 @@
 - Searches the given string with provided regular expression.
 - Returns a promise that eventually resolves to an array. The array contains match objects each having following attributes - 
   - line - line number(s) that the matched result was found on.
+  - term - the search term.
   - text - the entire line(s) that the matched result was found in.
 
 ## Getting Started
