@@ -45,6 +45,6 @@ describe('string-search', function () {
   it('should return understand the usual escape characters', function () {
     const result = find(multipleMatchStr, '\/span');
     return expect(result).to.eventually.have.length(1);
-    return expect(result).to.eventually.deep.equal({ line: 10, text: '    <span class="my-two">My class span</span>' });
+    return expect(result).to.eventually.deep.equal({ line: 10, text: '    <span class="my-two">My class span</span>', term: '/span' });
   });
 });
