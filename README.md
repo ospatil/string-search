@@ -1,12 +1,12 @@
-# string-search 
+# string-search
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]
 > Node module that carries out regex search on given multi-line string and returns match information.
 
 ## Features
 [string-search](https://github.com/ospatil/string-search) finds and returns match information for each match.
-- Accepts a multi-line string and regular expression in string format. 
+- Accepts a multi-line string and regular expression in string format.
 - Searches the given string with provided regular expression.
-- Returns a promise that eventually resolves to an array. The array contains match objects each having following attributes - 
+- Returns a promise that eventually resolves to an array. The array contains match objects each having following attributes -
   - line - line number(s) that the matched result was found on.
   - term - the search term.
   - text - the entire line(s) that the matched result was found in.
@@ -40,11 +40,13 @@ line | `integer` | line number that the matched result was found on.
 term | `string`  | The search term
 text | `string`  | the entire line(s) that the matched result was found in.
 
+The **promise** is rejected in case of missing or invalid arguments.
+
 ## Contributing
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality.
 
 ## Notes
-Heavily inspired by [lineder](https://github.com/jasonbellamy/lineder). I needed file reading part separated from text searching part 
+Heavily inspired by [lineder](https://github.com/jasonbellamy/lineder). I needed file reading part separated from text searching part
 so that a file can be read only once and multiple searches can be carried out on it. I also used promise to return results instead of a callback.
 
 ## License
