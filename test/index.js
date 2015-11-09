@@ -21,10 +21,12 @@ const multipleMatchStr =
 </html>`;
 
 describe('string-search', function () {
-  this.timeout(2000);
-  it('should throw type error if less than 2 arguments provided', function () {
-    expect(find).to.throw(TypeError, 'You must provide all arguments');
-    expect(find.bind(undefined, 'one')).to.throw(TypeError, 'You must provide all arguments');
+  it('should reject promise if called without arguments', function () {
+    return expect(find()).to.be.eventually.rejected;
+  });
+
+  it('should reject promise if called with illegal string to be searched argument', function () {
+    return expect(find(undefined, 'one')).to.be.eventually.rejected;
   });
 
   it('should return match even if the target string does not contain newline', function () {
