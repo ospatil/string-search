@@ -20,7 +20,7 @@ var stringSearcher = require('string-search');
 
 stringSearcher.find('This is the string to search text in', 'string')
   .then(function(resultArr) {
-    //resultArr => [ {line: 1, text: 'This is the string to search text in'} ]
+    //resultArr => [ {line: 1, term: 'string', text: 'This is the string to search text in'} ]
   });
 ```
 
